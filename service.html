@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Online Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/form.css">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="testbox">
+            <form >
+           
+                <div class="jumbotron">
+                    <h1 class="display-4" style="color: white;">Type Of Service & Charges</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p><br>
+                    <li class="checklist-item">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured.</li>
+                    <li class="checklist-item">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured.</li>
+                    <li class="checklist-item">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured.</li>
+                    <li class="checklist-item">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured.</li>
+                    <li class="checklist-item">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured.</li>
+                   
+                    
+                  </div>
+                  <h6 class="text-center">Select Type of Service</h6>
+                  <hr class="my-4">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="firstname">Type of Certificate</label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Choose...</option>
+                        <option value="1">Normal</option>
+                        <option value="2">Urgent</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Type of Shipment</label>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">National</option>
+                            <option value="2">International</option>
+                          </select>
+                      </div>
+                    
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="firstname">Province/State</label>
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">ABC</option>
+                            <option value="2">DEF</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="firstname">City</label>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                              <option selected>Choose...</option>
+                              <option value="1">ABC</option>
+                              <option value="2">DEF</option>
+                            </select>
+                          </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstnamepashto">Zip Code</label>
+                                <input type="text" class="form-control" id="ZipCode" >
+                              </div>
+                           
+                          </div>
+             
+              <div class="btn-block">
+                
+                  <!-- <button type="submit" data-toggle="modal" data-target="#exampleModalCenter">Open Modal</button>  -->
+                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
+                    Submit
+                  </button>
+              </div>
+
+
+            </form>
+
+
+        
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Application submitted</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="text-center">We've sent a copy of the confirmation to you email.</p>
+        </div>
+        <h6 class="text-center">Your Tracking Number is</h6>
+        <div class="alert alert-success" role="alert">
+            <strong><p class="text-center">18237921873892173</p></strong>
+          </div>
+          <h6 class="text-center">#Note: it's important to have your Application Number while collecting certificate.</h6>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a href="index.html"><button type="button" class="btn btn-primary">Return Home</button></a>
+          <a href="#"><button type="button" class="btn btn-info">Print Application</button></a>
+        </div>
+      </div>
+    </div>
+  </div>     
+
+
+        </div>  <!-- End of Main Div-->
+ 
+ 
+    </body>
+   
+</html>
